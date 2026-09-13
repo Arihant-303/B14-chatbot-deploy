@@ -3,4 +3,4 @@ def test_basic_functionality():
     message = "Hello, world!"
 
     assert message is not None
-    assert len(message) > 0
+    assert len(message) < 0
